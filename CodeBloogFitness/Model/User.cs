@@ -39,7 +39,7 @@ namespace CodeBlogFitness.BL.Model
         #endregion
 
         /// <summary>
-        /// Создать новго пользователя.
+        /// Создать нового пользователя.
         /// </summary>
         /// <param name="name"> Имя. </param>
         /// <param name="gender"> Пол. </param>
