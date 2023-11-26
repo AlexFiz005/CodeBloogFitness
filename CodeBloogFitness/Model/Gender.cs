@@ -9,6 +9,7 @@ namespace CodeBlogFitness.BL.Model
     /// <summary>
     /// Поль
     /// </summary>
+    [Serializable]
     public class Gender
     {
         /// <summary>
