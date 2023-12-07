@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CodeBlogFitness.BL.Model
 {
     /// <summary>
-    /// Поль
+    /// Пол.
     /// </summary>
     [Serializable]
     public class Gender
@@ -18,7 +18,7 @@ namespace CodeBlogFitness.BL.Model
         public string Name { get; }
 
         /// <summary>
-        /// Создать новый пол
+        /// Создать новый пол.
         /// </summary>
         /// <param name="name"> Имя пола </param>
         public Gender(string name)
