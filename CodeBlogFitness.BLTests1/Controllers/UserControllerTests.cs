@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CodeBlogFitness.BL.Controllers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeBlogFitness.BL.Controllers.Tests
 {
@@ -15,8 +9,8 @@ namespace CodeBlogFitness.BL.Controllers.Tests
         public void SetNewUserDataTest()
         {
             // Arrange
-            var userName = Guid.NewGuid().ToString();
-            var birthdate = DateTime.Now.AddYears(-18);
+            var userName = Guid.NewGuid().ToString();//Создает уникальное имя пользователя.
+            var birthdate = DateTime.Now.AddYears(-18);//Создает дату рождения.
             var weight = 90;
             var height = 190;
             var gender = "man";
